@@ -7,11 +7,13 @@ import Coffee from "../Pages/Coffee";
 import CoffeCard from "../CoffeCard";
 import Dasborad from "../Pages/Dasborad";
 import CoffeeDetails from "../Pages/CoffeeDetails";
+import Error from "../Error/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",

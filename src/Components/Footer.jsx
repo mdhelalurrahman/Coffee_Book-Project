@@ -40,7 +40,7 @@ const Footer = () => {
       <aside>
         <p>
           Copyright © {new Date().getFullYear()} - All right reserved by Md
-          Helaur Rahman
+          Helalur Rahman
         </p>
       </aside>
     </footer>
