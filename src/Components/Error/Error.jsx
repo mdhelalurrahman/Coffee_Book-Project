@@ -7,7 +7,7 @@ const Error = () => {
   return (
     <div className="flex flex-col justify-center items-center h-screen">
       <h1 className="text-3xl text-center font-bold">Something went wrong</h1>
-      <p className="text-center text-red-500">
+      <p className="text-center text-red-600">
         {error.statusText || error.message}
       </p>
       <p className="text-center text-red-500">{error.data}</p>
